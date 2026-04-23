@@ -31,7 +31,6 @@ El objetivo es clasificar imágenes médicas en las siguientes categorías:
 ```text
 eye_disease_detection/
 ├── data/                   # Archivos CSV de entrenamiento/test y etiquetas
-├── models/                 # Pesos (.weights.h5) y gráficas de resultados
 ├── src/                    # Código fuente modular
 │   ├── data_processing.py  # Limpieza y CLAHE
 │   ├── dataset.py          # Generador de datos (Data Pipeline)
